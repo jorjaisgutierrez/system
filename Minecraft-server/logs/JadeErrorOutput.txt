@@ -1,0 +1,81 @@
+03/06/2024 - 02:19:52
+de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone@4aadcae
+java.lang.AbstractMethodError: Receiver class de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone does not define or inherit an implementation of the resolved method 'abstract void appendServerData(net.minecraft.nbt.CompoundTag, snownee.jade.api.Accessor)' of interface snownee.jade.api.IServerDataProvider.
+	at TRANSFORMER/jade@11.7.1/snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:772)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:755)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:749)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:735)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:667)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+03/06/2024 - 23:38:12
+de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone@426fc325
+java.lang.AbstractMethodError: Receiver class de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone does not define or inherit an implementation of the resolved method 'abstract void appendServerData(net.minecraft.nbt.CompoundTag, snownee.jade.api.Accessor)' of interface snownee.jade.api.IServerDataProvider.
+	at TRANSFORMER/jade@11.7.1/snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:772)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:755)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:749)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:735)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:667)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+03/07/2024 - 13:35:25
+de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone@2efe9dc5
+java.lang.AbstractMethodError: Method de/maxhenkel/gravestone/integration/waila/HUDHandlerGraveStone.appendServerData(Lnet/minecraft/nbt/CompoundTag;Lsnownee/jade/api/Accessor;)V is abstract
+	at TRANSFORMER/gravestone@1.20-1.0.3/de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone.appendServerData(HUDHandlerGraveStone.java)
+	at TRANSFORMER/jade@11.7.1/snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:772)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:755)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:749)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:735)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:667)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+03/07/2024 - 16:44:55
+de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone@741e96a3
+java.lang.AbstractMethodError: Receiver class de.maxhenkel.gravestone.integration.waila.HUDHandlerGraveStone does not define or inherit an implementation of the resolved method 'abstract void appendServerData(net.minecraft.nbt.CompoundTag, snownee.jade.api.Accessor)' of interface snownee.jade.api.IServerDataProvider.
+	at TRANSFORMER/jade@11.7.1/snownee.jade.impl.BlockAccessorImpl.lambda$handleRequest$0(BlockAccessorImpl.java:74)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:772)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:755)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:749)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:735)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:667)
+	at TRANSFORMER/minecraft@1.20/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
